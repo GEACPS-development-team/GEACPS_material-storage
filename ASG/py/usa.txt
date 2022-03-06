@@ -1,0 +1,337 @@
+country_event = {
+	id = debug_USA.0
+	immediate = {
+		release = ﻿
+
+		country_event = {	debug_USA.1	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.1
+	immediate = {
+		release = ABA
+		country_event = {	debug_USA.2	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.2
+	immediate = {
+		release = ARK
+		country_event = {	debug_USA.3	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.3
+	immediate = {
+		release = ARZ
+		country_event = {	debug_USA.4	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.4
+	immediate = {
+		release = CLD
+		country_event = {	debug_USA.5	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.5
+	immediate = {
+		release = CNT
+		country_event = {	debug_USA.6	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.6
+	immediate = {
+		release = DEL
+		country_event = {	debug_USA.7	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.7
+	immediate = {
+		release = FLO
+		country_event = {	debug_USA.8	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.8
+	immediate = {
+		release = GEG
+		country_event = {	debug_USA.9	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.9
+	immediate = {
+		release = IDA
+		country_event = {	debug_USA.10	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.10
+	immediate = {
+		release = IDI
+		country_event = {	debug_USA.11	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.11
+	immediate = {
+		release = ILI
+		country_event = {	debug_USA.12	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.12
+	immediate = {
+		release = IOW
+		country_event = {	debug_USA.13	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.13
+	immediate = {
+		release = KAN
+		country_event = {	debug_USA.14	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.14
+	immediate = {
+		release = KTY
+		country_event = {	debug_USA.15	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.15
+	immediate = {
+		release = LUI
+		country_event = {	debug_USA.16	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.16
+	immediate = {
+		release = MAS
+		country_event = {	debug_USA.17	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.17
+	immediate = {
+		release = MCG
+		country_event = {	debug_USA.18	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.18
+	immediate = {
+		release = MIS
+		country_event = {	debug_USA.19	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.19
+	immediate = {
+		release = MNE
+		country_event = {	debug_USA.20	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.20
+	immediate = {
+		release = MNS
+		country_event = {	debug_USA.21	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.21
+	immediate = {
+		release = MRL
+		country_event = {	debug_USA.22	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.22
+	immediate = {
+		release = MSS
+		country_event = {	debug_USA.23	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.23
+	immediate = {
+		release = MTA
+		country_event = {	debug_USA.24	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.24
+	immediate = {
+		release = NCR
+		country_event = {	debug_USA.25	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.25
+	immediate = {
+		release = NDA
+		country_event = {	debug_USA.26	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.26
+	immediate = {
+		release = NEB
+		country_event = {	debug_USA.27	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.27
+	immediate = {
+		release = NEV
+		country_event = {	debug_USA.28	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.28
+	immediate = {
+		release = NHN
+		country_event = {	debug_USA.29	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.29
+	immediate = {
+		release = NJE
+		country_event = {	debug_USA.30	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.30
+	immediate = {
+		release = NMX
+		country_event = {	debug_USA.31	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.31
+	immediate = {
+		release = NYR
+		country_event = {	debug_USA.32	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.32
+	immediate = {
+		release = OHO
+		country_event = {	debug_USA.33	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.33
+	immediate = {
+		release = OKL
+		country_event = {	debug_USA.34	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.34
+	immediate = {
+		release = ORE
+		country_event = {	debug_USA.35	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.35
+	immediate = {
+		release = PEN
+		country_event = {	debug_USA.36	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.36
+	immediate = {
+		release = RIL
+		country_event = {	debug_USA.37	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.37
+	immediate = {
+		release = SCR
+		country_event = {	debug_USA.38	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.38
+	immediate = {
+		release = SDA
+		country_event = {	debug_USA.39	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.39
+	immediate = {
+		release = TEN
+		country_event = {	debug_USA.40	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.40
+	immediate = {
+		release = TEX
+		country_event = {	debug_USA.41	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.41
+	immediate = {
+		release = UTA
+		country_event = {	debug_USA.42	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.42
+	immediate = {
+		release = VRG
+		country_event = {	debug_USA.43	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.43
+	immediate = {
+		release = VRM
+		country_event = {	debug_USA.44	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.44
+	immediate = {
+		release = WAS
+		country_event = {	debug_USA.45	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.45
+	immediate = {
+		release = WSC
+		country_event = {	debug_USA.46	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.46
+	immediate = {
+		release = WVI
+		country_event = {	debug_USA.47	day = 1	}
+	}
+}
+country_event = {
+	id = debug_USA.47
+	immediate = {
+		release = WYO
+		country_event = {	debug_USA.48	day = 1	}
+	}
+}

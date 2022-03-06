@@ -1,0 +1,32 @@
+state = {
+	id = 0
+	name = "STATE_0"
+	manpower = 1
+	building_max_level_factor = 1
+	state_category = 
+	impassable = yes
+	
+	#resources = {	oil = 1	}
+	resources = {
+		oil = 1
+		aluminium = 1
+	}
+	
+	history = {
+		owner = JAP
+		add_core_of = JAP
+		add_core_of = HUN
+		#add_claim_by = POL
+		buildings = {
+			infrastructure = 1
+			0 = {	naval_base = 1	}
+			0 = {	bunker = 1	}
+		}
+		victory_points = {	0	10	}
+		set_variable = {	var = HUN_state_variable	value = 1	}
+	}
+	
+	province = {
+		0	0	0	0
+	}
+}

@@ -14,6 +14,7 @@ country_event = {
 	title = fate_of_"""+tag+""".0.t
 	desc = fate_of_"""+tag+""".0.d
 	is_triggered_only = yes
+	hidden = yes
 	option = {
 		name = fate_of_"""+tag+""".0.0
 		ai_chance = {	base = 10	}
@@ -26,13 +27,14 @@ country_event = {
 					every_state = {
 						limit = {
 							is_fully_controlled_by = ROOT
+							NOT = {	is_core_of = ROOT	}
+							NOT = {	is_claimed_by = ROOT	}
 							check_variable = {	"""+tag+"""_state_variable = 1	}
-							NOT = {	is_core_of = ROOT	is_claimed_by = ROOT	}
 						}
 						PREV = {	transfer_state = PREV	}
 					}
 					retire_all_ideology_leader = yes
-					set_cosmetic_tag = """+tag+"""
+					drop_cosmetic_tag = yes
 					ROOT = {	puppet = PREV	}
 				}
 			}
@@ -42,17 +44,30 @@ country_event = {
 					every_state = {
 						limit = {
 							is_fully_controlled_by = ROOT
+							NOT = {	is_core_of = ROOT	}
+							NOT = {	is_claimed_by = ROOT	}
 							check_variable = {	"""+tag+"""_state_variable = 1	}
 						}
-						"""+tag+""" = {	transfer_state = PREV	}
+						PREV = {	transfer_state = PREV	}
 					}
 					retire_all_ideology_leader = yes
-					set_cosmetic_tag = """+tag+"""
-					ROOT = {	puppet = """+tag+"""	}
+					drop_cosmetic_tag = yes
+					ROOT = {	puppet = PREV	}
 				}
 			}
-			country_event = {	id = fate_of_"""+tag+""".1	day = 10	}
 		}
+	}
+}
+country_event = {
+	id = fate_of_"""+tag+""".1
+	title = fate_of_"""+tag+""".1.t
+	desc = fate_of_"""+tag+""".1.d
+	is_triggered_only = yes
+	
+	option = {
+		name = fate_of_"""+tag+""".1.0
+		ai_chance = {	base = 10	}
+		country_event = fate_of_"""+tag+""".0
 	}
 }
 	""")
