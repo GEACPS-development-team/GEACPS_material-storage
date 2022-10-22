@@ -1,0 +1,157 @@
+
+country_event = {	#
+	id = RAT.1
+	title = RAT.1.t
+	desc = RAT.1.d
+	picture = GFX_event_test
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RAT.1.0
+		ai_chance = {	base = 100	}
+	}
+}
+country_event = {	#
+	id = RAT.2
+	title = RAT.2.t
+	desc = RAT.2.d
+	picture = GFX_event_test
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RAT.2.0
+		ai_chance = {	base = 100	}
+	}
+}
+country_event = {	#
+	id = RAT.3
+	title = RAT.3.t
+	desc = RAT.3.d
+	picture = GFX_event_test
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RAT.3.0
+		ai_chance = {	base = 100	}
+	}
+}
+country_event = {	#
+	id = RAT.4
+	title = RAT.4.t
+	desc = RAT.4.d
+	picture = GFX_event_test
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RAT.4.0
+		ai_chance = {	base = 100	}
+	}
+}
+country_event = {	#
+	id = RAT.5
+	title = RAT.5.t
+	desc = RAT.5.d
+	picture = GFX_event_test
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RAT.5.0
+		ai_chance = {	base = 100	}
+	}
+}
+country_event = {	#
+	id = RAT.6
+	title = RAT.6.t
+	desc = RAT.6.d
+	picture = GFX_event_test
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RAT.6.0
+		ai_chance = {	base = 100	}
+	}
+}
+country_event = {	#
+	id = RAT.7
+	title = RAT.7.t
+	desc = RAT.7.d
+	picture = GFX_event_test
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RAT.7.0
+		ai_chance = {	base = 100	}
+	}
+}
+country_event = {	#
+	id = RAT.8
+	title = RAT.8.t
+	desc = RAT.8.d
+	picture = GFX_event_test
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RAT.8.0
+		ai_chance = {	base = 100	}
+	}
+}
+country_event = {	#
+	id = RAT.9
+	title = RAT.9.t
+	desc = RAT.9.d
+	picture = GFX_event_test
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RAT.9.0
+		ai_chance = {	base = 100	}
+	}
+}
+country_event = {	#
+	id = RAT.10
+	title = RAT.10.t
+	desc = RAT.10.d
+	picture = GFX_event_test
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RAT.10.0
+		ai_chance = {	base = 100	}
+	}
+}
+country_event = {	#
+	id = RAT.11
+	title = RAT.11.t
+	desc = RAT.11.d
+	picture = GFX_event_test
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RAT.11.0
+		ai_chance = {	base = 100	}
+	}
+}
+country_event = {	#
+	id = RAT.12
+	title = RAT.12.t
+	desc = RAT.12.d
+	picture = GFX_event_test
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = RAT.12.0
+		ai_chance = {	base = 100	}
+	}
+}

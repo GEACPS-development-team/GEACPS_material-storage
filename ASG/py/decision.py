@@ -8,26 +8,16 @@ while True:
 	if not tag:
 		break
 	fpResult.write("""
-	release_"""+tag+""" = {
+	release_ABK = {	#ABK
 		icon = generic_prepare_civil_war
 		cost = 0
-		available = {
-			any_state = {
-				is_owned_by = ROOT
-				check_variable = {	"""+tag+"""_state_variable = 1	}
-				NOT = {	is_core_of = ROOT	is_claimed_by = ROOT	}
-			}
-			NOT = {	ROOT = {	original_tag = """+tag+"""	}	}
+		available = {	always = yes	}
+		visible = {	
+			ABK = {	release_country_decision_trigger = yes	}
+			release_CCS_decision_trigger = no
+			release_SCC_decision_trigger = no
 		}
-		visible = {
-			any_state = {
-				is_owned_by = ROOT
-				check_variable = {	"""+tag+"""_state_variable = 1	}
-				NOT = {	is_core_of = ROOT	is_claimed_by = ROOT	}
-			}
-			NOT = {	ROOT = {	original_tag = """+tag+"""	}	}
-		}
-		complete_effect = {	country_event = fate_of_"""+tag+""".1	}
+		complete_effect = {	country_event = fate_of_ABK.1	}
 		ai_will_do = {	base = 100	}
 	}
 	""")
